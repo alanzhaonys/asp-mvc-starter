@@ -19,7 +19,6 @@ var paths = {
   webroot: './wwwroot'
 };
 
-// Include all images, including subdirectories
 paths.imageSrc = paths.assets + '/images/**';
 paths.imageDest = paths.webroot + '/images';
 
@@ -27,19 +26,16 @@ paths.scssSrc = paths.assets + '/sass/main.scss';
 paths.scssDestDir = paths.webroot + '/css';
 paths.scssDestFile = 'main.min.css';
 
-// Include all js, including subdirectories
 paths.jsSrc = paths.assets + '/js/**/*.js';
 paths.jsDestDir = paths.webroot + '/js';
 paths.jsDestFile = 'main.min.js';
 
-// Copy library files
 paths.copyLibSrc = [
     'bower_components/jquery/dist/**',
     'bower_components/bootstrap/dist/**',
 ];
 paths.copyLibDest = paths.webroot + '/lib';
 
-// Copy MISC files
 paths.copyMiscSrc = [ paths.assets + '/favicon.ico' ];
 paths.copyMiscDest = paths.webroot;
 
