@@ -1,0 +1,21 @@
+{
+  "name": "asp-mvc-starter",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alan Zhao"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/alanzhaonys/asp-mvc-starter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
